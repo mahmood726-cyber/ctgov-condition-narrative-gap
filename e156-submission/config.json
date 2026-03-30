@@ -1,0 +1,57 @@
+{
+  "title": "CT.gov Condition Narrative Gap",
+  "slug": "ctgov-condition-narrative-gap",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "path": "C:\\Projects\\ctgov-condition-narrative-gap",
+  "type": "methods",
+  "primary_estimand": "Narrative-gap stock among older studies missing both detailed descriptions and primary outcome descriptions",
+  "summary": "A standalone E156 project on which therapeutic portfolios most often leave older CT.gov records without both detailed descriptions and primary-outcome descriptions.",
+  "body": "Which condition families most often leave older CT.gov study pages without both detailed descriptions and primary outcome descriptions? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot using one condition-family label per study. We defined a narrative-gap study as one missing both detailed description and primary outcome description, then ranked large condition families by stock and rate. The broad OTHER bucket led the narrative-gap stock table at 5,124 studies, followed by Oncology at 4,105, Cardiovascular at 3,240, and Healthy volunteers at 3,100. Healthy volunteers had the sharpest large-family narrative-gap rate at 22.0 percent, ahead of Metabolic at 14.8 percent and Renal and urology at 14.6 percent. Condition-family narrative gaps show where registry pages stay text-thin even before readers ask whether results or publications were posted later. Condition families are keyword-derived registry groupings, not formal disease ontologies or mutually exclusive diagnoses for readers. They simplify diverse diagnoses into usable public buckets.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which condition families most often leave older CT.gov study pages without both detailed descriptions and primary outcome descriptions?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot using one condition-family label per study."
+    },
+    {
+      "role": "Method",
+      "text": "We defined a narrative-gap study as one missing both detailed description and primary outcome description, then ranked large condition families by stock and rate."
+    },
+    {
+      "role": "Primary result",
+      "text": "The broad OTHER bucket led the narrative-gap stock table at 5,124 studies, followed by Oncology at 4,105, Cardiovascular at 3,240, and Healthy volunteers at 3,100."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Healthy volunteers had the sharpest large-family narrative-gap rate at 22.0 percent, ahead of Metabolic at 14.8 percent and Renal and urology at 14.6 percent."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Condition-family narrative gaps show where registry pages stay text-thin even before readers ask whether results or publications were posted later."
+    },
+    {
+      "role": "Boundary",
+      "text": "Condition families are keyword-derived registry groupings, not formal disease ontologies or mutually exclusive diagnoses for readers. They simplify diverse diagnoses into usable public buckets."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Condition Narrative Gap dashboard",
+    "data": "249,507 eligible older closed interventional studies with condition-family narrative-gap stock and rate summaries",
+    "code": "https://github.com/mahmood726-cyber/ctgov-condition-narrative-gap",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "author@example.com",
+  "references": [
+    "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
+    "DeVito NJ, Bacon S, Goldacre B. Compliance with legal requirement to report clinical trial results on ClinicalTrials.gov: a cohort study. Lancet. 2020;395(10221):361-369.",
+    "Zarin DA, Tse T, Williams RJ, Carr S. Trial reporting in ClinicalTrials.gov. N Engl J Med. 2016;375(20):1998-2004."
+  ]
+}
