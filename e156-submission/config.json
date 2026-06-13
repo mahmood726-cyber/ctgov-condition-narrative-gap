@@ -3,7 +3,7 @@
   "slug": "ctgov-condition-narrative-gap",
   "author": "Mahmood Ahmad",
   "date": "2026-03-29",
-  "path": "C:\\Projects\\ctgov-analyses/ctgov-condition-narrative-gap",
+  "path": "ctgov-condition-narrative-gap",
   "type": "methods",
   "primary_estimand": "Narrative-gap stock among older studies missing both detailed descriptions and primary outcome descriptions",
   "summary": "A standalone E156 project on which therapeutic portfolios most often leave older CT.gov records without both detailed descriptions and primary-outcome descriptions.",
